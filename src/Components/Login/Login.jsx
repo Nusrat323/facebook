@@ -18,7 +18,7 @@ const Login = () => {
 
   // Phone number validation (simple 10-digit validation)
   const isValidPhone = (phone) => {
-    const phoneRegex = /^\d{10}$/;
+    const phoneRegex = /^\d{11}$/;
     return phoneRegex.test(phone);
   };
 
